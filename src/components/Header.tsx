@@ -56,7 +56,7 @@ const Header = () => {
             </a>
           ))}
           <a 
-            href="/lovable-uploads/daf48be2-af46-40c2-acbc-eafccbf4070a.png" 
+            href="/Resume.png" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn btn-outline"
