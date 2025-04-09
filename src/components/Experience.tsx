@@ -8,7 +8,7 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: "Vastify",
+      company: "Visitly",
       title: "Software Engineering Intern",
       period: "Feb 2025 - Present",
       location: "San Francisco, California (Remote)",
@@ -25,16 +25,6 @@ const Experience = () => {
       responsibilities: [
         "Revamped the GeoSAM plugin using PyQGIS, enhancing navigation features and user interface; achieved a 30% reduction in user-reported issues.",
         "Automated geospatial data integration, streamlining workflows."
-      ]
-    },
-    {
-      company: "JP Morgan Chase & Co.",
-      title: "CFG Hackathon Participant",
-      period: "15 July 2024 - 16 July 2024",
-      location: "Mumbai, Maharashtra",
-      responsibilities: [
-        "Developed and implemented a Teacher Dashboard for Voices of People Association (VOPA) during the 24-hour hackathon.",
-        "Designed and implemented backend infrastructure with Java, Spring Boot, and MySQL for scalability and potential mobile integration."
       ]
     }
   ];

@@ -1,6 +1,5 @@
 
 import SectionHeading from "./SectionHeading";
-import { Button } from "./ui/button";
 
 const Contact = () => {
   return (
