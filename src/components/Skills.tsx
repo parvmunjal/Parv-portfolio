@@ -9,11 +9,11 @@ const Skills = () => {
     },
     {
       title: "Frameworks",
-      skills: ["Spring Boot", "Spring Security", "React.js", "AngularJS"]
+      skills: ["Spring Boot", "ReactJS", "AngularJS"]
     },
     {
       title: "Tools/Platforms",
-      skills: ["Git", "Docker", "Jenkins", "GitHub Actions", "AWS", "RESTful APIs", "JUnit", "Mockito"]
+      skills: ["Git", "Docker", "Jenkins", "GitHub Actions", "AWS", "RESTful APIs", "JUnit", "Mockito","JIRA"]
     },
     {
       title: "Databases",

@@ -21,19 +21,9 @@ const Education = () => {
                 </div>
                 <p className="text-highlight mb-1">Bachelor of Technology in Computer and Communication Engineering</p>
                 <p className="text-slate">CGPA: 9.34</p>
-                <p className="text-slate-light text-sm">2021 - 2025</p>
+                <p className="text-slate-light text-sm">2022 - 2026</p>
               </div>
               
-              {/* School */}
-              <div className="bg-white p-6 rounded-md shadow-sm border border-gray-100">
-                <div className="flex flex-col md:flex-row justify-between mb-2">
-                  <h4 className="text-xl font-medium text-navy">Kendraiah Public School</h4>
-                  <p className="text-slate">Sriganganagar, Rajasthan</p>
-                </div>
-                <p className="text-highlight mb-1">High School</p>
-                <p className="text-slate">Percentage: 91.2%</p>
-                <p className="text-slate-light text-sm">2021</p>
-              </div>
             </div>
           </div>
           

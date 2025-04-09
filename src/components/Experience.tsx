@@ -18,8 +18,8 @@ const Experience = () => {
       ]
     },
     {
-      company: "Project ISRO",
-      title: "GIS Developer",
+      company: "RRSC-S, ISRO",
+      title: "Project Intern",
       period: "June 2024 - Aug 2024",
       location: "Bengaluru, Karnataka",
       responsibilities: [

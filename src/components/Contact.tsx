@@ -9,7 +9,7 @@ const Contact = () => {
         
         <div className="flex justify-center gap-10 py-6 mt-8">
           <a 
-            href="https://github.com/LeetCode" 
+            href="https://github.com/parvmunjal" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-slate hover:text-highlight transition-colors"
@@ -22,7 +22,7 @@ const Contact = () => {
           </a>
           
           <a 
-            href="https://linkedin.com/in/LinkedInHandle" 
+            href="https://www.linkedin.com/in/parvmunjal/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-slate hover:text-highlight transition-colors"

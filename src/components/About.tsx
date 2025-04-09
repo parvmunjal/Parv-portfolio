@@ -9,11 +9,10 @@ const About = () => {
         
         <div className="prose max-w-none">
           <p className="text-lg mb-4">
-            I'm a passionate and detail-oriented Computer and Communication Engineering graduate with a strong foundation in full-stack development. Known for complex problem-solving abilities and a commitment to developing scalable applications, I've demonstrated through hands-on experience my skill in building robust solutions with a proven track record of delivering high-quality projects.
-          </p>
+          I'm a passionate and detail-oriented Computer and Communication Engineering student with a strong foundation in full-stack development. I thrive on solving complex problems and building scalable, high-quality web applications.          </p>
           <p className="text-lg mb-6">
-            I'm dedicated to leveraging technical expertise to tackle challenging problems and enhance user experience. Currently working as a Software Engineering Intern at Visitly, where I'm working on visitor management systems using Spring Boot and AngularJS.
-          </p>
+          With hands-on experience and a proven track record of delivering robust solutions, I bring both technical expertise and a user-focused mindset to every project.
+          Currently, I’m a Software Engineering Intern at Visitly, where I contribute to the development of a visitor management system using Spring Boot and AngularJS.          </p>
           
           <div className="flex flex-col md:flex-row gap-8 mt-8">
             <div className="md:w-full">
@@ -21,7 +20,6 @@ const About = () => {
               <ul className="list-disc list-inside space-y-2 text-slate">
                 <li>Full-stack web application development</li>
                 <li>Enterprise-level software architecture</li>
-                <li>Geospatial data integration</li>
                 <li>User-focused application design</li>
                 <li>Performance optimization</li>
               </ul>

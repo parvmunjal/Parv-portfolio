@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center pt-24 pb-16">
+    <section className="min-h-screen flex pb-16">
       <div className="container mx-auto">
         <div className="max-w-3xl animate-fadeIn">
           <p className="font-mono text-highlight mb-4">Hi, my name is</p>
@@ -16,7 +16,7 @@ const Hero = () => {
           <p className="text-slate text-lg mb-8 max-w-xl">
             I'm a full-stack developer specializing in building exceptional digital experiences. Currently, I'm focused on building scalable applications at{" "}
             <a href="#experience" className="text-highlight hover:underline">
-              Vastify
+              Visitly
             </a>
             .
           </p>
