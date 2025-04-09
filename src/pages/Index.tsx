@@ -8,20 +8,25 @@ import Skills from "@/components/Skills";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import ThemeProvider from "@/components/ThemeProvider";
+import ThemeSwitcher from "@/components/ThemeSwitcher";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Skills />
-      <Education />
-      <Contact />
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div className="min-h-screen dark:bg-navy dark:text-slate-lighter">
+        <Header />
+        <ThemeSwitcher />
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Skills />
+        <Education />
+        <Contact />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 };
 

@@ -1,11 +1,12 @@
 
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { useTheme } from "./ThemeProvider";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { theme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,12 +35,14 @@ const Header = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         scrolled
-          ? "bg-white/90 backdrop-blur-md shadow-sm py-4"
+          ? theme === "dark"
+            ? "bg-navy/90 backdrop-blur-md shadow-md py-4"
+            : "bg-white/90 backdrop-blur-md shadow-sm py-4"
           : "bg-transparent py-6"
       )}
     >
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#" className="text-navy text-2xl font-bold">
+        <a href="#" className={cn("text-2xl font-bold", theme === "dark" ? "text-white" : "text-navy")}>
           <span className="text-highlight">{"<"}</span>
           PM
           <span className="text-highlight">{" />"}</span>
@@ -51,13 +54,13 @@ const Header = () => {
             <a
               key={i}
               href={link.href}
-              className="nav-link"
+              className={cn("nav-link", theme === "dark" ? "text-slate-lighter hover:text-white" : "")}
             >
               {link.name}
             </a>
           ))}
           <a 
-            href="/lovable-uploads/ffca3fe6-02ba-4913-8818-7b66f3b410ce.png" 
+            href="/lovable-uploads/daf48be2-af46-40c2-acbc-eafccbf4070a.png" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn btn-outline"
@@ -68,7 +71,7 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-navy"
+          className={cn("md:hidden", theme === "dark" ? "text-white" : "text-navy")}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
@@ -111,7 +114,7 @@ const Header = () => {
                 </a>
               ))}
               <a 
-                href="/lovable-uploads/ffca3fe6-02ba-4913-8818-7b66f3b410ce.png" 
+                href="/lovable-uploads/daf48be2-af46-40c2-acbc-eafccbf4070a.png" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn btn-outline mt-4"
