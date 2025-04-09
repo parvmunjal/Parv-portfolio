@@ -1,15 +1,9 @@
 
-import { useTheme } from "./ThemeProvider";
 import { cn } from "@/lib/utils";
 
 const Footer = () => {
-  const { theme } = useTheme();
-  
   return (
-    <footer className={cn(
-      "py-6",
-      theme === "dark" ? "bg-navy-light text-white" : "bg-navy text-white"
-    )}>
+    <footer className="py-6 bg-navy text-white">
       <div className="container mx-auto text-center">
         <p className="text-slate-lighter">
           Designed & Built by Parv Munjal

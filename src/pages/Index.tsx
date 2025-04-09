@@ -9,14 +9,12 @@ import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
-import ThemeSwitcher from "@/components/ThemeSwitcher";
 
 const Index = () => {
   return (
     <ThemeProvider>
       <div className="min-h-screen dark:bg-navy dark:text-slate-lighter">
         <Header />
-        <ThemeSwitcher />
         <Hero />
         <About />
         <Experience />

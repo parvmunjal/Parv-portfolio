@@ -1,6 +1,5 @@
 
 import { cn } from "@/lib/utils";
-import { useTheme } from "./ThemeProvider";
 
 interface SectionHeadingProps {
   children: React.ReactNode;
@@ -8,12 +7,9 @@ interface SectionHeadingProps {
 }
 
 const SectionHeading = ({ children, className }: SectionHeadingProps) => {
-  const { theme } = useTheme();
-  
   return (
     <h2 className={cn(
-      "section-heading", 
-      theme === "dark" ? "text-white" : "text-navy",
+      "section-heading text-navy",
       className
     )}>
       {children}

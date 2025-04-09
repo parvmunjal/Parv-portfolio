@@ -1,12 +1,10 @@
 
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import { useTheme } from "./ThemeProvider";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const { theme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,14 +33,12 @@ const Header = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         scrolled
-          ? theme === "dark"
-            ? "bg-navy/90 backdrop-blur-md shadow-md py-4"
-            : "bg-white/90 backdrop-blur-md shadow-sm py-4"
+          ? "bg-white/90 backdrop-blur-md shadow-sm py-4"
           : "bg-transparent py-6"
       )}
     >
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#" className={cn("text-2xl font-bold", theme === "dark" ? "text-white" : "text-navy")}>
+        <a href="#" className="text-2xl font-bold text-navy">
           <span className="text-highlight">{"<"}</span>
           PM
           <span className="text-highlight">{" />"}</span>
@@ -54,7 +50,7 @@ const Header = () => {
             <a
               key={i}
               href={link.href}
-              className={cn("nav-link", theme === "dark" ? "text-slate-lighter hover:text-white" : "")}
+              className="nav-link"
             >
               {link.name}
             </a>
@@ -71,7 +67,7 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className={cn("md:hidden", theme === "dark" ? "text-white" : "text-navy")}
+          className="md:hidden text-navy"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
