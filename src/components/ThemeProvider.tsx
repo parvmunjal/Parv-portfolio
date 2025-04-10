@@ -34,7 +34,7 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => {
 
   useEffect(() => {
     if (theme === "dark") {
-      document.documentElement.classList.add("dark");
+      document.documentElement.classList.add("");
     } else {
       document.documentElement.classList.remove("dark");
     }
