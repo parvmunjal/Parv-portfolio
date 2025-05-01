@@ -34,7 +34,7 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => {
 
   useEffect(() => {
     if (theme === "dark") {
-      document.documentElement.classList.add("");
+      document.documentElement.classList.add("light");
     } else {
       document.documentElement.classList.remove("dark");
     }
@@ -42,7 +42,7 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => {
   }, [theme]);
 
   const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    setTheme(theme === "light" ? "light" : "light");
   };
 
   return (
