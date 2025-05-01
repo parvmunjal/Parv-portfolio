@@ -13,8 +13,8 @@ const Experience = () => {
       period: "Feb 2025 - Present",
       location: "San Francisco, California (Remote)",
       responsibilities: [
-        "Working on the visitor management system using Spring Boot and AngularJS.",
-        "Collaborating with cross-functional teams to enhance API performance and security."
+        "Took full ownership of backend development for a core feature enabling multi-recipient notifications (Email, SMS,Slack), from development to integrations with Slack APIs, Plivo SMS gateway, and AWS SES.",
+        "Contributed to a major frontend reskin of the platform using AngularJS, enhancing the UI and UX."
       ]
     },
     {
