@@ -23,7 +23,7 @@ const Experience = () => {
       period: "June 2024 - Aug 2024",
       location: "Bengaluru, Karnataka",
       responsibilities: [
-        "Revamped the GeoSAM plugin using PyQGIS, enhancing navigation features and user interface; achieved a 30% reduction in user-reported issues.",
+        "Revamped the GeoSAM plugin using PyQGIS, enhancing navigation features and user interface; achieved a 40% reduction in user-reported issues.",
         "Automated geospatial data integration, streamlining workflows."
       ]
     }
