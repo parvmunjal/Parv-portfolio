@@ -15,10 +15,6 @@ const Hero = () => {
           </h2>
           <p className="text-slate text-lg mb-8 max-w-xl">
             I'm a full-stack developer specializing in building exceptional digital experiences.
-            <a href="#experience" className="text-highlight hover:underline">
-              Visitly
-            </a>
-            .
           </p>
           <div className="flex gap-4">
             <a href="#projects" className="btn btn-primary">
