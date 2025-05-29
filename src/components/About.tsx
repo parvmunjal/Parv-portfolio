@@ -12,7 +12,7 @@ const About = () => {
           I'm a passionate and detail-oriented Computer and Communication Engineering student with a strong foundation in full-stack development. I thrive on solving complex problems and building scalable, high-quality web applications.          </p>
           <p className="text-lg mb-6">
           With hands-on experience and a proven track record of delivering robust solutions, I bring both technical expertise and a user-focused mindset to every project.
-          Currently, I’m a Software Engineering Intern at Visitly, where I contribute to the development of a visitor management system using Spring Boot and AngularJS.          </p>
+                  </p>
           
           <div className="flex flex-col md:flex-row gap-8 mt-8">
             <div className="md:w-full">

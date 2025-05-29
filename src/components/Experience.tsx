@@ -10,7 +10,7 @@ const Experience = () => {
     {
       company: "Visitly",
       title: "Software Engineering Intern",
-      period: "Feb 2025 - Present",
+      period: "Feb 2025 - May 2025",
       location: "San Francisco, California (Remote)",
       responsibilities: [
         "Took full ownership of backend development for a core feature enabling multi-recipient notifications (Email, SMS,Slack), from development to integrations with Slack APIs, Plivo SMS gateway, and AWS SES.",
