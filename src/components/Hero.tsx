@@ -14,7 +14,7 @@ const Hero = () => {
             I build scalable web applications.
           </h2>
           <p className="text-slate text-lg mb-8 max-w-xl">
-            I'm a full-stack developer specializing in building exceptional digital experiences. Currently, I'm focused on building scalable applications at{" "}
+            I'm a full-stack developer specializing in building exceptional digital experiences.
             <a href="#experience" className="text-highlight hover:underline">
               Visitly
             </a>
