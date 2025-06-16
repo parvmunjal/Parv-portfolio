@@ -13,8 +13,9 @@ const Experience = () => {
       period: "Feb 2025 - May 2025",
       location: "San Francisco, California (Remote)",
       responsibilities: [
-        "Took full ownership of backend development for a core feature enabling multi-recipient notifications (Email, SMS,Slack), from development to integrations with Slack APIs, Plivo SMS gateway, and AWS SES.",
-        "Contributed to frontend development using AngularJS, improving overall usability and maintaining consistency across key modules."
+         "Designed and developed a scalable notification system (Email via AWS SES, SMS via Plivo, Slack) with automated flows, improving backend reliability and reducing operational load.",
+ "Contributed to frontend development using Angular, improving overall usability and maintaining consistency.",
+ "Wrote unit and integration tests, debugged complex issues, and contributed to various enhancements across the codebase."
       ]
     },
     {

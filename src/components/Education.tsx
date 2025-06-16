@@ -20,7 +20,7 @@ const Education = () => {
                   <p className="text-slate">Jaipur, Rajasthan</p>
                 </div>
                 <p className="text-highlight mb-1">Bachelor of Technology in Computer and Communication Engineering</p>
-                <p className="text-slate">CGPA: 9.34</p>
+                <p className="text-slate">CGPA: 9.26</p>
                 <p className="text-slate-light text-sm">2022 - 2026</p>
               </div>
               

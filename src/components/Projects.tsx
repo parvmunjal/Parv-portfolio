@@ -7,12 +7,14 @@ const Projects = () => {
     {
       title: "CampusConnect",
       description: "A full-stack event platform for creating, managing, and attending campus events",
-      technologies: ["Spring Boot", "Spring Security", "React JS", "MySQL", "HTML", "CSS"],
+      technologies: ["Spring Boot", "Spring Security", "React JS", "MySQL",  "Render", "Netlify", "GitHub Actions"],
       details: [
-        "Developed a full-stack event platform for creating, managing, and attending campus events, with features like event scheduling, club registration, and real-time updates.",
-        "Built an organizer dashboard with event analytics, attendee management, and feedback tools.",
-        "Implemented a ticketing and registration system with email notifications for enhanced user engagement."
-      ]
+      "Designed and implemented a full stack campus event management platform with secure JWT authentication.",
+      "Built role based dashboards for users, organizers, and admin enabling event exploration, registration, venue scheduling, analytics, and administrative approvals.",
+ "Automated deployment using CI/CD pipelines via GitHub Actions, deployed across Netlify and Render.",
+        "Implemented a registration system with email notifications for enhanced user engagement."
+      ],
+      liveDemo:"https://campusconnectcc.netlify.app"
     },
     {
       title: "VibeHub",
@@ -45,6 +47,7 @@ const Projects = () => {
               description={project.description}
               technologies={project.technologies}
               details={project.details}
+              liveDemo={project.liveDemo}
             />
           ))}
         </div>
